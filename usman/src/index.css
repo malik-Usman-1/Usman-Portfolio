@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+CU:wght@100..400&family=Prosto+One&display=swap');
+
+
+
+
+.Usman {
+  font-family: "Playwrite CU", cursive;
+  font-optical-sizing: auto;
+ 
+}
+.head{
+  background-color: rgb(37, 19, 1);
+}

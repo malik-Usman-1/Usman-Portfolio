@@ -23,7 +23,7 @@ const Projects = () => {
             <img src="/assets/project2.png" alt="" />
             <div className=' border-2 border-blue-600 px-3 py-1  w-max hover:bg-blue-700 hover:text-white duration-300 group  cursor-pointer'>
 
-            <a href="https://compro-system.vercel.app/" className="text-blue-500 group-hover:text-white duration-300 no-underline font-semibold" target="_blank" rel="noopener noreferrer">View Project</a>
+            <a href="https://audionic.vercel.app/" className="text-blue-500 group-hover:text-white duration-300 no-underline font-semibold" target="_blank" rel="noopener noreferrer">View Project</a>
             
           </div>
 
@@ -36,7 +36,7 @@ const Projects = () => {
             <img src="/assets/project3.png" alt="" />
             <div className=' border-2 border-blue-600 px-3 py-1  w-max hover:bg-blue-700 hover:text-white duration-300 group  cursor-pointer'>
 
-            <a href="https://compro-system.vercel.app/" className="text-blue-500 group-hover:text-white duration-300 no-underline font-semibold" target="_blank" rel="noopener noreferrer">View Project</a>
+            <a href="https://creasoft.vercel.app/" className="text-blue-500 group-hover:text-white duration-300 no-underline font-semibold" target="_blank" rel="noopener noreferrer">View Project</a>
             
           </div>
 
@@ -50,7 +50,7 @@ const Projects = () => {
             <img src="/assets/project4.png" alt="" />
             <div className=' border-2 border-blue-600 px-3 py-1  w-max hover:bg-blue-700 hover:text-white duration-300 group  cursor-pointer'>
 
-<a href="https://compro-system.vercel.app/" className="text-blue-500 group-hover:text-white duration-300 no-underline font-semibold" target="_blank" rel="noopener noreferrer">View Project</a>
+<a href="https://exclusive-theme-team.vercel.app/" className="text-blue-500 group-hover:text-white duration-300 no-underline font-semibold" target="_blank" rel="noopener noreferrer">View Project</a>
 
 </div>
 

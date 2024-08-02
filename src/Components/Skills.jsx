@@ -11,13 +11,14 @@ const ExperienceAndSkills = () => {
           <div className="page-single page-layout">
             <article className="page hentry">
               <header className="entry-header text-center pb-12">
-                <h1 className="entry-title">Resume</h1>
+                <h1 className=" text-4xl font-bold">Resume</h1>
               </header>
               <div className="entry-content">
                 <div className="row">
-                  <div className="col-sm-6 col-lg-7 space-y-7">
+                  <div className="col-sm-6 col-lg-7 space-y-7 pb-4 sm:pb-0">
                     <div className="event">
-                      <h2 className=' text-gray-500'>Experience</h2>
+                    <h2><i>Experience</i></h2>
+
                       <p>
                         <i className="pw-icon-badge"></i>
                       </p>
@@ -86,7 +87,7 @@ const ExperienceAndSkills = () => {
                       <h4 className=' text-lg'>Web development training</h4>
                       <h5 className=' text-lg text-gray-500'>Vvork Cloud Technology.</h5>
                     </div>
-                    <div className=' border-2 border-blue-600 px-3  pt-2  w-max '>
+                    <div className=' border-2 border-blue-600 px-3  pt-2  w-max  '>
 
                     <p className=' text-sm text-blue-600'>
                       <a target="_blank" rel="noopener noreferrer" href="/assets/Usman Jamshaid[3].pdf" className="button primary">

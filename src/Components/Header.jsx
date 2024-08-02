@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-scroll';
+import { AiOutlineClose } from 'react-icons/ai';
+import { GiHamburgerMenu } from "react-icons/gi";
+
 
 const Home = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -15,10 +18,10 @@ const Home = () => {
             to="port" 
             smooth={true} 
             duration={500} 
-            onClick={toggleMenu}
+          
 
             >
-      <h1 className="text-white  Usman sm:text-4xl text-3xl cursor-pointer ">Portfolio</h1>
+      <h1 className="text-white  Usman sm:text-4xl text-2xl cursor-pointer ">Portfolio</h1>
 
 
             </Link>
@@ -62,39 +65,39 @@ const Home = () => {
           </Link>
         </nav>
         <div className="md:hidden">
-          <button onClick={toggleMenu} className="text-white focus:outline-none">
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <button onClick={toggleMenu} className="text-white focus:outline-none text-3xl">
+          {menuOpen ? <AiOutlineClose /> : <GiHamburgerMenu />}
+
+            {/* <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>
-            </svg>
+            </svg> */}
           </button>
-        </div>
-      </div>
-      {menuOpen && (
-        <div className="md:hidden">
-          <nav className="flex flex-col items-center">
+          {menuOpen && (
+        <div className="  absolute   w-full inset-0  h-40 top-20 bg-black">
+          <nav className="flex flex-col  pl-10  pt-3">
             <Link 
               to="about" 
               smooth={true} 
               duration={500} 
-              className="py-2 cursor-pointer"
+              className="py-1 cursor-pointer no-underline text-white font-serif"
               onClick={toggleMenu}
             >
               About
             </Link>
             <Link 
-              to="skills" 
+              to="Resume" 
               smooth={true} 
               duration={500} 
-              className="py-2 cursor-pointer"
+              className="py-1 cursor-pointer no-underline text-white font-serif"
               onClick={toggleMenu}
             >
-              Skills
+              Resume
             </Link>
             <Link 
-              to="projects" 
+              to="Projects" 
               smooth={true} 
               duration={500} 
-              className="py-2 cursor-pointer"
+              className="py-1 cursor-pointer no-underline text-white font-serif"
               onClick={toggleMenu}
             >
               Projects
@@ -103,7 +106,7 @@ const Home = () => {
               to="contact" 
               smooth={true} 
               duration={500} 
-              className="py-2 cursor-pointer"
+              className="py-1 cursor-pointer no-underline text-white font-serif"
               onClick={toggleMenu}
             >
               Contact
@@ -111,6 +114,9 @@ const Home = () => {
           </nav>
         </div>
       )}
+        </div>
+      </div>
+     
     </header>
   );
 };
